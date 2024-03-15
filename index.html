@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML</title>
+    <base href="http://www.google.com">
+</head>
+<body>
+    <table border="1">
+        <thead>
+          <tr>
+            <th>Elemento HTML</th>
+            <th>Descripción</th>
+            <th>Ejemplo en codigo</th>
+            <th>Resultado en navegador</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td><code>Anchor</code> Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.</td>
+                <td>&lt;a href="https://example.com"&gt;Website&lt;/a&gt;</td>
+                <td><a href="https://example.com">Website</a></td>
+            </tr>
+            <tr>
+                <td>&lt;abbr&gt;</td>
+                <td><code>abbr</code>Representa una abreviación o acrónimo; el atributo opcional title puede ampliar o describir la abreviatura.</td>
+                <td>&lt;abbr title="Hypertext Markup Language"&gt;Website&lt;/abbr&gt;</td>
+                <td><p>I do <abbr title="Hypertext Markup Language">HTML</abbr></p></td>
+            </tr>
+            <tr>
+                <td>&lt;article&gt;</td>
+                <td><code>article</code> Representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio.</td>
+                <td>&lt;article &gt;algun articiculo&lt;/article&gt;</td>
+                <td><article>algun articiculo</article></td>
+            </tr>
+            <tr>
+                <td>&lt;aside&gt;</td>
+                <td><code>aside</code> Representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.</td>
+                <td>&lt;aside&gt;algun articiculo&lt;/aside&gt;</td>
+                <td><article>algun contenido</article></td>
+            </tr>
+            <tr>
+                <td>&lt;Audio&gt;</td>
+                <td><code>Audio</code> El elemento <code>audio</code> se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HT</td>
+                <td>&lt;Audio src="audio.mp3"&gt;&lt;/Audio&gt;</td>
+                <td><article><audio src="audio.mp3" controls autoplay></audio></article></td>
+            </tr>
+            <tr>
+                <td>&lt;b&gt;</td>
+                <td><code>b</code> Indica que el texto debe ser representado con una variable bold, o negrita,de la tipografía que se esté usando.</td>
+                <td>&lt;b &gt;algun texto&lt;/b&gt;</td>
+                <td><b>algun texto</b></td>
+            </tr>
+            <tr>
+                <td>&lt;base&gt;</td>
+                <td><code>base</code> representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio,</td>
+                <td>&lt; base href="http://www.google.com" /&gt;</td>
+                <td><a href="">enlace</a></td>
+            </tr>
+            <tr>
+                <td>&lt;bdi&gt;</td>
+                <td><code>bdi</code> aisla un trozo de texto para que pueda ser formateado con una dirección diferente al texto que hay fuera de él.</td>
+                <td>&lt;bdi &gt;ARABIC_PLACEHOLDER&lt;/bdi&gt;</td>
+                <td><bdi>ARABIC_PLACEHOLDER</bdi></td>
+            </tr>
+            <tr>
+                <td>&lt;blockquote&gt;</td>
+                <td><code>blockquote</code> Crea citas en bloque, marca las citas a otros autores o documentos.</td>
+                <td>&lt;blockquote &gt;alguna cita&lt;/blockquote&gt;</td>
+                <td><blockquote>alguna cita</blockquote></td>
+            </tr>
+            <tr>
+                <td>&lt;body&gt;</td>
+                <td><code>body</code> Crea citas en bloque, marca las citas a otros autores o documentos.</td>
+                <td>&lt;body &gt;contenido html&lt;/body&gt;</td>
+                <td><body>contenido html</body></td>
+            </tr>
+            <tr>
+                <td>&lt;br&gt;</td>
+                <td><code>br</code> produce un salto de línea en el texto</td>
+                <td>&lt;br &gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;button&gt;</td>
+                <td><code>button</code> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios</td>
+                <td>&lt;button &gt;submit&lt;/button&gt;</td>
+                <td><button>submit</button></td>
+            </tr>
+            <tr>
+                <td>&lt;canvas&gt;</td>
+                <td><code>canvas</code> se puede utilizar para dibujar gráficos a través de secuencias de comandos</td>
+                <td>&lt;canvas &gt;Algun dibujo&lt;/canvas&gt;</td>
+                <td><canvas>Algun dibujo</canvas></td>
+            </tr>
+            <tr>
+                <td>&lt;caption&gt;</td>
+                <td><code>caption</code> Es el encargado de darle un título descriptivo a las tablas.</td>
+                <td>&lt;caption &gt;titulo de tabla&lt;/caption&gt;</td>
+                <td><table><caption>titulo de tabla</caption></table></td>
+            </tr>
+            <tr>
+                <td>&lt;cite&gt;</td>
+                <td><code>cite</code>  Marca una referencia a una fuente, o el autor de un texto citado.</td>
+                <td>&lt;cite &gt;Galileo dijo: "... y sin embargo, se mueve."&lt;/cite&gt;</td>
+                <td><p><cite>Galileo</cite> dijo: "... y sin embargo, se mueve."</p></td>
+            </tr>
+            <tr>
+                <td>&lt;code&gt;</td>
+                <td><code>code</code> Es el apropiado para marcar el código de un programa.</td>
+                <td>&lt;code &gt;algun codigo&lt;/code&gt;</td>
+                <td><code>algun codigo</button></td>
+            </tr>
+            <tr>
+                <td>&lt;col&gt;</td>
+                <td><code>col</code> Es el apropiado para marcar el código de un programa.</td>
+                <td>&lt;col &gt;</td>
+                <td><table><col></table> </td>
+            </tr>
+            <tr>
+                <td>&lt;colgroup&gt;</td>
+                <td><code>colgroup</code>Permite crear grupos de columna</td>
+                <td>&lt;colgroup &gt;grupo de columna&lt;/colgroup&gt;</td>
+                <td><table><colgroup>grupo de columna</colgroup></table></td>
+            </tr>
+            <tr>
+                <td>&lt;data&gt;</td>
+                <td><code>data</code> vincula un contenido dado con una traducción legible por una máquina</td>
+                <td>&lt;data value="3967381398" &gt;Mini Ketchup&lt;/data&gt;</td>
+                <td>
+                    <ul>
+                    <li><data value="3967381398">Mini Ketchup</data></li>
+                  </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;datalist&gt;</td>
+                <td><code>datalist</code> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios</td>
+                <td>&lt;datalist &gt;options&lt;/datalist&gt;</td>
+                <td><label
+                    ><input list="browsers" name="myBrowser"
+                  /></label>
+                  <datalist id="browsers">
+                    <option value="Chrome"></option>
+                    <option value="Firefox"></option>
+                    <option value="Internet Explorer"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                    <option value="Microsoft Edge"></option>
+                  </datalist></td>
+            </tr>
+            <tr>
+                <td>&lt;dd&gt;</td>
+                <td><code>dd</code>  provee detalles acerca de o la definición de un término precedente (<dt>) en una lista de descripciones (<dl>).</td>
+                <td>&lt;dd &gt;definicion&lt;/dd&gt;</td>
+                <td><dd>definicion</dd></td>
+            </tr>
+            <tr>
+                <td>&lt;del&gt;</td>
+                <td><code>del</code> marca las partes de un texto o documento que han sido suprimidas o sustituidas.</td>
+                <td>&lt;del &gt;palabra eliminada&lt;/del&gt;</td>
+                <td><del>
+                    <p>palabra elimnada.</p>
+                  </del></td>
+            </tr>
+            <tr>
+                <td>&lt;details&gt;</td>
+                <td><code>details</code>es usado como un widget de revelación a través del cual el usuario puede obtener información adicional .</td>
+                <td>&lt;details &gt;algun detalle&lt;/details&gt;</td>
+                <td><details>algun detalle</details></td>
+            </tr>
+            <tr>
+                <td>&lt;dfn&gt;</td>
+                <td><code>dfn</code> Sirve para marcar el término que se quiere definir.</td>
+                <td>&lt;dfn &gt;definicion&lt;/dfn&gt;</td>
+                <td><dfn>definición</dfn></td>
+            </tr>
+            <tr>
+                <td>&lt;dialog&gt;</td>
+                <td><code>dialog</code>  representa una caja de diálogo u otro componente interactivo, como inspector o ventana.</td>
+                <td>&lt;dialog &gt;dialogo&lt;/dialog&gt;</td>
+                <td><dialog >dialogo</dialog></td>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;</td>
+                <td><code>div</code> es el contenedor genérico para el contenido</td>
+                <td>&lt;div &gt;cualquier contenido&lt;/div&gt;</td>
+                <td><div>cualquier contenido</div></td>
+            </tr>
+            <tr>
+                <td>&lt;dl&gt;</td>
+                <td><code>dl</code> epresenta una lista descriptiva</td>
+                <td>&lt;dl &gt;dt dd&lt;/dl&gt;</td>
+                <td><dl>
+                    <dt>Beast of Bodmin</dt>
+                    <dd>A large feline inhabiting Bodmin Moor.</dd>
+                  </dl>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;dt&gt;</td>
+                <td><code>dt</code> especifica un término en una descripción o lista de definiciones, y como tal debe utilizarse dentro de un elemento dl Es usualmente seguido por un elemento dd</td>
+                <td>&lt;dt &gt;>Beast of Bodmin&lt;/dt&gt;</td>
+                <td><dt>Beast of Bodmin</dt></td>
+            </tr>
+            <tr>
+                <td>&lt;em&gt;</td>
+                <td><code>em</code>  es el apropiado para marcar con énfasis las partes importantes de un texto.</td>
+                <td>&lt;em &gt;texto&lt;/em&gt;</td>
+                <td><em>texto</em></td>
+            </tr>
+            <tr>
+                <td>&lt;embed&gt;</td>
+                <td><code>embed</code>  representa un punto de integración para una aplicación externa o de contenido interactivo</td>
+                <td>&lt;embed &gt;contenido&lt;/embed&gt;</td>
+                <td><embed>contenido</embed></td>
+            </tr>
+            <tr>
+                <td>&lt;fieldset&gt;</td>
+                <td><code>fieldset</code> permite organizar en grupos los campos de un formulario.</td>
+                <td>&lt;fieldset &gt;mas etiquetas&lt;/fieldset&gt;</td>
+                <td><fieldset>mas etiquetas</fieldset></td>
+            </tr>
+            <tr>
+                <td>&lt;figcaption&gt;</td>
+                <td><code>figcaption</code>representa un subtítulo o leyenda asociado al contenido del elemento padre figure</td>
+                <td>&lt;figcaption &gt;An elephant at sunset&lt;/figcaption&gt;</td>
+                <td><figure>
+                    <img src="/media/cc0-images/elephant-660-480.jpg" alt="Elephant at sunset" />
+                    <figcaption>An elephant at sunset</figcaption>
+                  </figure></td>
+            </tr>
+            <tr>
+                <td>&lt;figure&gt;</td>
+                <td><code>figure</code>  representa contenido independiente, a menudo con un título.</td>
+                <td>&lt;figure &gt;img&lt;/figure&gt;</td>
+                <td><figure>img</figure></td>
+            </tr>
+            <tr>
+                <td>&lt;footer&gt;</td>
+                <td><code>footer</code>  representa un pie de página para el contenido de sección más cercano</td>
+                <td>&lt;footer &gt;contenido&lt;/footer&gt;</td>
+                <td><footer>contenido</footer></td>
+            </tr>
+            <tr>
+                   <td>&lt;form&gt;</td>
+                <td><code>form</code> representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.</td>
+                <td>&lt;form &gt;contenido&lt;/form&gt;</td>
+                <td><form>contenido</form></td>
+            </tr>
+            <tr>
+                   <td>&lt;h1&gt;</td>
+                <td><code>h1</code> Los elementos de encabezado implementan seis niveles de encabezado del documento, h1 es el más importante, y h6, el menos importante</td>
+                <td>&lt;h1 &gt;contenido&lt;/h1&gt;</td>
+                <td><h1>contenido</h1></td>
+            </tr>
+            <tr>
+                   <td>&lt;head&gt;</td>
+                <td><code>head</code> provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos.</td>
+                <td>&lt;head &gt;meta data&lt;/head&gt;</td>
+                <td><head>meta data</head></td>
+            </tr>
+            <tr>
+                   <td>&lt;header&gt;</td>
+                <td><code>header</code>  representa un grupo de ayudas introductorias o de navegación</td>
+                <td>&lt;header &gt;contenido&lt;/header&gt;</td>
+                <td><header>contenido</header></td>
+            </tr>
+            <tr>
+                   <td>&lt;hgroup&gt;</td>
+                <td><code>hgroup</code>  representa el encabezado de una sección</td>
+                <td>&lt;hgroup &gt;elementps de encabezdos&lt;/hgroup&gt;</td>
+                <td><hgroup>elementps de encabezdos</hgroup></td>
+            </tr>
+            <tr>
+                   <td>&lt;hr&gt;</td>
+                <td><code>hr</code> epresenta un cambio de tema entre párrafos (por ejemplo, un cambio de escena en una historia, un cambio de tema en una sección).</td>
+                <td>texto &lt;hr &gt;texto </td>
+                <td>texto<hr>texto</td>
+            </tr>
+            <tr>
+                   <td>&lt;html&gt;</td>
+                <td><code>html</code> epresenta la raiz de un documento HTML. El resto de elementos descienden de este elemento.</td>
+                <td>&lt;html &gt;contenido&lt;/html&gt;</td>
+                <td><html>contenido</html></td>
+            </tr>
+            <tr>
+                   <td>&lt;i&gt;</td>
+                <td><code>i</code> Muestra el texto marcado con un estilo en cursiva o italica.</td>
+                <td>&lt;i &gt;submit&lt;/i&gt;</td>
+                <td><i>texto</i></td>
+            </tr>
+            <tr>
+                   <td>&lt;iframe&gt;</td>
+                <td><code>iframe</code> representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual.</td>
+                <td>&lt;iframe &gt; id="inlineFrameExample"
+                    title="Inline Frame Example"
+                    width="300"
+                    height="200"
+                    src="https://www.&lt;/iframe&gt;</td>
+                <td><iframe
+                    id="inlineFrameExample"
+                    title="Inline Frame Example"
+                    width="300"
+                    height="200"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+                  </iframe></td>
+            </tr>
+            <tr>
+                   <td>&lt;img&gt;</td>
+                <td><code>img</code>representa una imagen en el documento.</td>
+                <td>&lt;img src="ruta"&gt;</td>
+                <td><img src="mdn-logo-sm.png"></td>
+            </tr>
+            <tr>
+                   <td>&lt;input&gt;</td>
+                <td><code>input</code> se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.</td>
+                <td>&lt;input &gt;</td>
+                <td><input></td>
+            </tr>
+            <tr>
+                   <td>&lt;ins&gt;</td>
+                <td><code>ins</code>marca las partes de un texto que han sido añadidos al documento.</td>
+                <td>&lt;ins &gt;Y además inodora e incolora.&lt;/ins&gt;</td>
+                <td><ins> <p>Y además inodora e incolora.</p> </ins></td>
+            </tr>
+            <tr>
+                   <td>&lt;kbd&gt;</td>
+                <td><code>kbd</code> Marca el texto que debe introducir el usuario.</td>
+                <td>Si está conforme escriba &lt;kbd &gt;si&lt;/kbd&gt;</td>
+                <td>Si está conforme escriba <kbd>sí</kbd>.</td>
+            </tr>
+            <tr>
+                   <td>&lt;label&gt;</td>
+                <td><code>label</code> representa una etiqueta para un elemento en una interfaz de usuario.</td>
+                <td>&lt;label &gt;nombre:&lt;/label&gt;</td>
+                <td><label>nombre:</label></td>
+            </tr>
+            <tr>
+                   <td>&lt;legend&gt;</td>
+                <td><code>legend</code>crea un título para un grupos los campos (fieldset) de un formulario.</td>
+                <td>&lt;legend &gt;contenido&lt;/legend&gt;</td>
+                <td><legend>contenido</legend></td>
+            </tr>
+            <tr>
+                   <td>&lt;li&gt;</td>
+                <td><code>li</code> el ingles item list o elemento de lista declara cada uno de los elementos de una lista.</td>
+                <td>&lt;li &gt;algun contenido&lt;/li&gt;</td>
+                <td><li>algun contenido</li></td>
+            </tr>
+            <tr>
+                   <td>&lt;button&gt;</td>
+                <td><code>button</code> especifica la relación entre el documento actual y un recurso externo</td>
+                <td>&lt;link href="style.css" /&gt;</td>
+                <td><link href="style.css" rel="stylesheet" />
+                </td>
+            </tr>
+            <tr>
+                   <td>&lt;main&gt;</td>
+                <td><code>main</code> representa el contenido principal del <body> de un documento o aplicación</td>
+                <td>&lt;main &gt;contenido&lt;/main&gt;</td>
+                <td><main>contenido</main></td>
+            </tr>
+            <tr>
+                   <td>&lt;map&gt;</td>
+                <td><code>map</code> descripción de uno o dos párrafos</td>
+                <td>&lt;map &gt;contenido&lt;/map&gt;</td>
+                <td><map>contenido</map></td>
+            </tr>
+            <tr>
+                   <td>&lt;mark&gt;</td>
+                <td><code>mark</code> representa un texto marcado o resaltado como referencia o anotación, debido a su relevancia o importancia en un contexto particular.</td>
+                <td>&lt;mark &gt;texto&lt;/mark&gt;</td>
+                <td><mark>texto</mark></td>
+            </tr>
+            <tr>
+                   <td>&lt;menu&gt;</td>
+                <td><code>menu</code>  se describe en la especificación HTML como una alternativa semántica a ul, </td>
+                <td>&lt;menu &gt;submit&lt;/menu&gt;</td>
+                <td><menu>submit</menu></td>
+            </tr>
+            <tr>
+                   <td>&lt;meta&gt;</td>
+                <td><code>meta</code> metainformación. Sirve para aportar información sobre el documento.</td>
+                <td>&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;</td>
+                <td><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></td>
+            </tr>
+            <tr>
+                   <td>&lt;nav&gt;</td>
+                <td><code>nav</code>  representa una sección de una página cuyo propósito es proporcionar enlaces de navegación</td>
+                <td>&lt;nav &gt;contenido&lt;/nav&gt;</td>
+                <td><nav><ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                  </ul></nav></td>
+            </tr>
+            <tr>
+                   <td>&lt;noscript&gt;</td>
+                <td><code>noscript</code> Aporta contenidos alternativos al elemento script.</td>
+                <td>&lt;noscript &gt;contenido&lt;/noscript&gt;</td>
+                <td><noscript>contenido</noscript></td>
+            </tr>
+            <tr>
+                   <td>&lt;object&gt;</td>
+                <td><code>object</code>representa un recurso externo, que puede ser tratado como una imagen, un contexto de navegación anidado</td>
+                <td>&lt;object type="application/pdf" data="/media/examples/In-CC0.pdf" width="250" height="200" &gt;&lt;/object&gt;</td>
+                <td><object type="application/pdf" data="/media/examples/In-CC0.pdf" width="250" height="200"></object></td>
+            </tr>
+            <tr>
+                   <td>&lt;ol&gt;</td>
+                <td><code>ol</code> permite definir listas o viñetas ordenadas</td>
+                <td>&lt;ol &gt;li > contenido&lt;/ol&gt;</td>
+                <td><ol> <li>punto uno</li>
+                    <li>punto dos</li>
+                    <li>punto tres</li></ol></td>
+            </tr>
+            <tr>
+                   <td>&lt;option&gt;</td>
+                <td><code>option</code>  se usa para representar un item dentro de un select</td>
+                <td>&lt;option &gt;submit&lt;/option&gt;</td>
+                <td><option>submit</option></td>
+            </tr>
+            <tr>
+                   <td>&lt;p&gt;</td>
+                <td><code>p</code>  es el apropiado para distribuir el texto en párrafos.</td>
+                <td>&lt;p &gt;parrafo&lt;/p&gt;</td>
+                <td><p>parrafo</p></td>
+            </tr>
+            <tr>
+                   <td>&lt;picture&gt;</td>
+                <td><code>picture</code> es un contenedor usado para especificar múltiples elementos source y un elemento img</td>
+                <td>&lt;picture &gt;submit&lt;/picture&gt;</td>
+                <td><picture>submit</picture></td>
+            </tr>
+            <tr>
+                   <td>&lt;pre&gt;</td>
+                <td><code>pre</code>representa texto preformateado</td>
+                <td>&lt;pre &gt; body{
+                    color:  red;
+                  }
+                  a   {
+                    color:green;
+                  }&lt;pre&gt;</td>
+                <td><pre>
+                    body{
+                      color:  red;
+                    }
+                    a   {
+                      color:green;
+                    }
+                    </pre></td>
+            </tr>
+            <tr>
+                   <td>&lt;progress&gt;</td>
+                <td><code>progress</code> se utiliza para visualizar el progreso de una tarea.</td>
+                <td>&lt;progress id="file" max="100" value="70" &gt;70%&lt;/progress&gt;</td>
+                <td><progress id="file" max="100" value="70">70%</progress>
+                </td>
+            </tr>
+            <tr>
+                   <td>&lt;q&gt;</td>
+                <td><code>q</code>  indica que el texto adjunto es una cita corta en línea</td>
+                <td>&lt;q &gt; I'm sorry, Dave. I'm afraid I can't do that.&lt;/q&gt;</td>
+                <td><p>
+                    When Dave asks HAL to open the pod bay door, HAL answers:
+                    <q>
+                      I'm sorry, Dave. I'm afraid I can't do that.
+                    </q>
+                  </p></td>
+            </tr>
+            <tr>
+                   <td>&lt;s&gt;</td>
+                <td><code>s</code> Muestra el texto tachado con una linea horizontal.</td>
+                <td>&lt;s &gt;texto&lt;/s&gt;</td>
+                <td><s>texto</s></td>
+            </tr>
+            <tr>
+                   <td>&lt;samp&gt;</td>
+                <td><code>samp</code> se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador.</td>
+                <td>&lt;samp &gt;Keyboard not found <br />Press F1 to continue&lt;/samp&gt;</td>
+                <td><samp>Keyboard not found <br />Press F1 to continue</samp></td>
+            </tr>
+            <tr>
+                   <td>&lt;script&gt;</td>
+                <td><code>script</code> element is used to embed executable code or data</td>
+                <td>&lt;script &gt;{'codigo js'}&lt;/script&gt;</td>
+                <td><script>{'codigo js'}</script></td>
+            </tr>
+            <tr>
+                   <td>&lt;search&gt;</td>
+                <td><code>search</code> element is a container representing the parts of the document or application with form controls or other content related to performing a search or filtering operation.</td>
+                <td>&lt;search &gt;formulario de busqueda&lt;/search&gt;</td>
+                <td><search>formulario de busqueda</search></td>
+            </tr>
+            <tr>
+                   <td>&lt;section&gt;</td>
+                <td><code>section</code>  representa una sección genérica independiente de un documento</td>
+                <td>&lt;section &gt;cualquier contenido&lt;/section&gt;</td>
+                <td><section>cualquier contenido</section></td>
+            </tr>
+            <tr>
+                   <td>&lt;select&gt;</td>
+                <td><code>select</code>representa un control que muestra un menú de opciones.</td>
+                <td>&lt;select &gt;options&lt;/select&gt;</td>
+                <td><select>  <option value="value1">Value 1</option>
+                    <option value="value2" selected>Value 2</option>
+                    <option value="value3">Value 3</option></select></td>
+            </tr>
+            <tr>
+                   <td>&lt;slot&gt;</td>
+                <td><code>slot</code> es un placeholder en un componente que tu puedes llenar con tu propio marcado, que te permite crear árboles DOM por separado y presentarlos juntos.</td>
+                <td>&lt;slot &gt;contenido html&lt;/slot&gt;</td>
+                <td><slot>contenido html</slot></td>
+            </tr>
+            <tr>
+                   <td>&lt;small&gt;</td>
+                <td><code>small</code>  hace el tamaño del texto una talla más pequeña</td>
+                <td>&lt;small &gt;texto&lt;/small&gt;</td>
+                <td><small>texto</small></td>
+            </tr>
+            <tr>
+                   <td>&lt;source&gt;</td>
+                <td><code>source</code> especifica recursos de medios múltiples para los elementos picture</td>
+                <td>&lt;source src="/media/cc0-videos/flower.mp4" type="video/mp4" /&gt;</td>
+                <td>  <source src="/media/cc0-videos/flower.mp4" type="video/mp4" /></td>
+            </tr>
+            <tr>
+                   <td>&lt;span&gt;</td>
+                <td><code>span</code> Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.</td>
+                <td>&lt;span style="color: red; &gt;y esto un span dentro de un párrafo.&lt;/span&gt;</td>
+                <td> <span style="color: red;"> y esto un span dentro de un párrafo. </span>></td>
+            </tr>
+            <tr>
+                   <td>&lt;strong&gt;</td>
+                <td><code>strong</code> El elemento strong es el apropiado para marcar con especial énfasis las partes más importantes de un texto.</td>
+                <td>&lt;strong &gt;texto&lt;/strong&gt;</td>
+                <td><strong>texto</strong></td>
+            </tr>
+            <tr>
+                   <td>&lt;style&gt;</td>
+                <td><code>style</code> Es el elemento encargado de indicar la información de estilo.</td>
+                <td>&lt;style &gt;codigo css&lt;/style&gt;</td>
+                <!-- <td><style>codigo css</style></td> -->
+            </tr>
+            <tr>
+                   <td>&lt;sub&gt;</td>
+                <td><code>sub</code>  define un fragmento de texto que se debe mostrar, por razones tipográficas, más bajo, y generalmente más pequeño, que el tramo principal del texto, es decir, en subíndice</td>
+                <td>&lt;sub &gt;texto&lt;/sub&gt;</td>
+                <td><sub>texto</sub></td>
+            </tr>
+            <tr>
+                   <td>&lt;summary&gt;</td>
+                <td><code>summary</code>  element specifies a summary, caption, or legend for a <details> element's disclosure box</td>
+                <td>&lt;summary &gt;I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?&lt;/summary&gt;</td>
+                <td><details>
+                    <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+                    A keyboard.
+                  </details></td>
+            </tr>
+            <tr>
+                   <td>&lt;tabla&gt;</td>
+                <td><code>tabla</code>  representa datos en dos o mas dimensiones.</td>
+                <td>&lt;tabla &gt;elementos de tabla&lt;/tabla&gt;</td>
+                <td><tabla>elementos de tabla</tabla></td>
+            </tr>
+            <tr>
+                   <td>&lt;tbody&gt;</td>
+                <td><code>tbody</code> element encapsulates a set of table rows (tr elements), indicating that they comprise the body of a table's (main) data.</td>
+                <td>&lt;tbody &gt;elementos tr&lt;/tbody&gt;</td>
+                <td><tbody>elementos tr</tbody></td>
+            </tr>
+            <tr>
+                   <td>&lt;td&gt;</td>
+                <td><code>td</code> define la celda de una tabla que contiene datos</td>
+                <td>&lt;td &gt;data de tabla&lt;/td&gt;</td>
+                <td><td>data de tabla</td></td>
+            </tr>
+            <tr>
+                   <td>&lt;template&gt;</td>
+                <td><code>template</code> es un mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página, pero que posteriormente puede ser instanciado durante el tiempo de ejecución empleando JavaScript</td>
+                <td>&lt;template &gt;elementos html&lt;/template&gt;</td>
+                <td><template>elementos html</template></td>
+            </tr>
+            <tr>
+                   <td>&lt;textarea&gt;</td>
+                <td><code>textarea</code> representa un control para la edición mutilínea de texto sin formato.</td>
+                <td>&lt;textarea &gt;texto&lt;/textarea&gt;</td>
+                <td><textarea rows="10" cols="50">texto</textarea></td>
+            </tr>
+            <tr>
+                   <td>&lt;tfoot&gt;</td>
+                <td><code>tfoot</code> element encapsulates a set of table rows (tr elements), indicating that they comprise the foot of a table with information about the table's columns.</td>
+                <td>&lt;tfoot &gt;elementos tr&lt;/tfoot&gt;</td>
+                <td><tfoot>elementos tr</tfoot></td>
+            </tr>
+            <tr>
+                   <td>&lt;th&gt;</td>
+                <td><code>th</code> define una celda como encabezado de un grupo de celdas en una tabla</td>
+                <td>&lt;th &gt;elementos tr&lt;/th&gt;</td>
+                <td><th>elementos tr</th></td>
+            </tr>
+            <tr>
+                   <td>&lt;thead&gt;</td>
+                <td><code>thead</code> element encapsulates a set of table rows (tr elements), indicating that they comprise the head of a table with information about the table's columns.</td>
+                <td>&lt;thead &gt;elementos tr&lt;/thead&gt;</td>
+                <td><thead>elementos tr</thead></td>
+            </tr>
+            <tr>
+                   <td>&lt;time&gt;</td>
+                <td><code>time</code>  representa un periodo específico en el tiempo. </td>
+                <td>&lt;time &gt;20:00&lt;/time&gt;</td>
+                <td><time datetime="20:00">20:00</time></td>
+            </tr>
+            <tr>
+                   <td>&lt;title&gt;</td>
+                <td><code>title</code> define el título del documento que se muestra en un browser la barra de título o la pestaña de una página.</td>
+                <td>&lt;title &gt;nombre&lt;/title&gt;</td>
+                <td><title>nombre</title></td>
+            </tr>
+            <tr>
+                   <td>&lt;tr&gt;</td>
+                <td><code>tr</code> define una fila de celdas en una tabla.</td>
+                <td>&lt;tr &gt;elementos td&lt;/tr&gt;</td>
+                <td><tr>elementos td</tr></td>
+            </tr>
+            <tr>
+                   <td>&lt;track&gt;</td>
+                <td><code>track</code> se utiliza como elemento hijo de los elementos multimedia, audio y video. Le permite especificar pistas de texto cronometradas (o datos basados en el tiempo), por ejemplo, para manejar subtítulos automáticamente.</td>
+                <td>&lt;track default kind="captions" srclang="en" src="/media/examples/friday.vtt" /&gt;</td>
+                <td><video controls src="/media/cc0-videos/friday.mp4">
+                    <track default kind="captions" srclang="en" src="/media/examples/friday.vtt" />
+                    Download the
+                    <a href="/media/cc0-videos/friday.mp4">MP4</a>
+                    video, and
+                    <a href="/media/examples/friday.vtt">subtitles</a>.
+                  </video></td>
+            </tr>
+            <tr>
+                   <td>&lt;u&gt;</td>
+                <td><code>u</code> Muestra el texto subrayado.</td>
+                <td>&lt;u &gt;texto&lt;/u&gt;</td>
+                <td><u>texto</u></td>
+            </tr>
+            <tr>
+                   <td>&lt;ul&gt;</td>
+                <td><code>ul</code>crea una lista no ordenada.</td>
+                <td>&lt;ul &gt;submit&lt;/ul&gt;</td>
+                <td><ul>
+                    <li>Esto</li>
+                    <li>Lo otro</li>
+                    <li>Lo de más allá</li>
+                   </ul></td>
+            </tr>
+            <tr>
+                   <td>&lt;var&gt;</td>
+                <td><code>var</code> Marca variables de programas y similares.</td>
+                <td>&lt;var &gt;Faltan&lt;/var&gt;</td>
+                <td><p>
+                    el bucle no se detendrá hasta que <var>Faltan</var> sea igual a 0.
+                    </p></td>
+            </tr>
+            <tr>
+                   <td>&lt;video&gt;</td>
+                <td><code>video</code> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios</td>
+                <td>&lt;video &gt;Tu navegador no admite el elemento <code>video</code>&lt;/video&gt;</td>
+                <td><video src="videofile.ogg" autoplay poster="posterimage.jpg">
+                    Tu navegador no admite el elemento <code>video</code>.
+                  </video></td>
+            </tr>
+            <tr>
+                   <td>&lt;wbr&gt;</td>
+                <td><code>wbr</code> representa una posición dentro del texto donde el explorador puede opcionalmente saltar una línea , aunque sus reglas de salto de línea de otra manera no crearían un salto en esa posición </td>
+                <td>this&lt;/wbr&gt;</td>
+                <td><p>
+                    http://this<wbr />.is<wbr />.a<wbr />.really<wbr />.long<wbr />.example<wbr />.com/With<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages
+                  </p></td>
+            </tr>
+            <tr>
+                   <td>&lt;rp&gt;</td>
+                <td><code>rp</code> element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the ruby element.</td>
+                <td>漢&lt;/rp&gt;</td>
+                <td><ruby> 漢 <rp>(</rp><rt>kan</rt><rp>)</rp> 字 <rp>(</rp><rt>ji</rt><rp>)</rp> </ruby></td>
+            </tr>
+            <tr>
+                <td>&lt;rt&gt;</td>
+                <td><code>rt</code> element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the ruby element.</td>
+                <td>漢&lt;/rt&gt;</td>
+                <td><ruby> 漢 <rp>(</rp><rt>kan</rt><rp>)</rp> 字 <rp>(</rp><rt>ji</rt><rp>)</rp> </ruby></td>
+            </tr>
+            <tr>
+                   <td>&lt;ruby&gt;</td>
+                <td><code>ruby</code> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios</td>
+                <td>&lt;ruby &gt;明日&lt;/ruby&gt;</td>
+                <td><ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby></td>
+            </tr>
+            <tr>
+                   <td>&lt;meter&gt;</td>
+                <td><code>meter</code> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios</td>
+                <td>&lt;meter  id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50"&gt;at 50/100&lt;/meter&gt;</td>
+                <td><meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter></td>
+            </tr>
+            <tr>
+                   <td>&lt;fencedframe&gt;</td>
+                <td><code>fencedframe</code> element represents a nested browsing context, embedding another HTML page into the current one.</td>
+                <td>&lt;fencedframe width="640" height="320" &gt;contenido&lt;/fencedframe&gt;</td>
+                <td><fencedframe width="640" height="320">contenido</fencedframe></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>Ismael Nuñez 100284129</tr>
+        </tfoot>
+      </table>
+</body>
+</html>
